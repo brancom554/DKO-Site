@@ -1,0 +1,98 @@
+/* Add here all your css styles (customizations) */
+
+h4.title-price a {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.breadcrumbs-store {
+    width: 100%;
+    padding: 14px 0;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.breadcrumbs-store:before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: " ";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.breadcrumbs-store .container {
+    position: relative;
+}
+
+.breadcrumbs-store span.page-name {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0 0 5px 3px;
+}
+
+.breadcrumbs-store h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200;
+    margin: 0 0 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.breadcrumbs-store .breadcrumb-store-in {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.breadcrumbs-store .breadcrumb-store-in>li {
+    color: #fff;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.breadcrumbs-store .breadcrumb-store-in>li+li:before {
+    color: #fff;
+    content: "\f105";
+    margin-left: 7px;
+    padding-right: 8px;
+    font-family: FontAwesome;
+}
+
+.breadcrumbs-store .breadcrumb-store-in li a {
+    color: #fff;
+}
+
+.breadcrumbs-store .breadcrumb-store-in li.active,
+.breadcrumbs-store .breadcrumb-store-in li a:hover {
+    color: #18ba9b;
+    text-decoration: none;
+}
+
+.searchBar {
+    margin-top: 0px;
+    margin-bottom: 50px
+}
+
+div .container .content-md {
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+h4.title-price a {
+    display: block;
+    width: 170px;
+    height: 50px;
+}
+
+.illustration-v2 .product-img img.full-width {
+    min-height: 230px;
+}
